@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
 }
 
 *, *::before, *::after {
@@ -37,9 +37,9 @@ p {
 
 .title {
   max-width: 50em;
-
+  padding-top: 2em;
   position: absolute;
-  bottom: 0;
+  bottom: -.9em;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
