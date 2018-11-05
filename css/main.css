@@ -22,6 +22,7 @@ body {
 p {
   font-size: 2rem;
   font-style: italic;
+  margin: 0;
 }
 
 .img-flex {
@@ -37,9 +38,9 @@ p {
 
 .title {
   max-width: 50em;
-  padding-top: 2em;
+  padding: 1.25em;
   position: absolute;
-  bottom: -.9em;
+  bottom: -1.5em;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
