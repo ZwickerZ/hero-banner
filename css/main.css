@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -14,12 +15,17 @@ h2 {
   color: #fff;
 }
 
+body {
+  margin: 0;
+}
+
 p {
   font-size: 2rem;
   font-style: italic;
 }
 
-img {
+.img-flex {
+  display: block;
   width: 100%;
 }
 
